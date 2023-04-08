@@ -1,15 +1,15 @@
+import HeroSection from "./HeroSection";
 import Movie from "./Movie";
 
 
 
 export default async  function Home() {
   const data = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=68234cd06a5dcf3abf2890260729cfa0')
-  console.log(data);
   const res = await data.json()
-  console.log(res);
   return (
     <main >
-      <div className="grid gap-16 grid-cols-fluid">
+      <HeroSection/>
+      <div className="grid gap-16 grid-cols-fluid  mx-20 my-6">
       {
         res.results.map((movie) => (
           <Movie

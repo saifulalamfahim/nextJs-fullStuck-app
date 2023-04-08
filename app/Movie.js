@@ -6,7 +6,7 @@ export default function Movie({ title, id , poster_path, release_date }) {
 
     console.log(poster_path);
   return (
-    <div>
+    <div className="">
       <h1>{title}</h1>
       <h2>{release_date}</h2>
       <Link href={`/${id}`}>
