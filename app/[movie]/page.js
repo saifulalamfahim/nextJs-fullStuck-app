@@ -6,7 +6,7 @@ export default async function movieDetails({params}) {
     const data = await fetch(`https://api.themoviedb.org/3/movie/${movie}popular?api_key=68234cd06a5dcf3abf2890260729cfa0`)
     const res = await data.json()
   return (
-    <div>
+    <div className=" mx-20 my-6">
       <h1 className="text-2xl">{res.title}</h1>
       <h2 className="texy-lg">{res.release_date}</h2>
       <h2>Runtime: {res.runtime} minutes</h2>

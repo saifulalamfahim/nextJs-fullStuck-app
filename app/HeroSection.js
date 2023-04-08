@@ -10,15 +10,15 @@ export default function HeroSection() {
   {/* <!-- Navbar Container --> */}
   <div className="mx-auto relative px-5 max-w-screen-xl w-full flex items-center justify-end">
     {/* <!-- Navbar Logo --> */}
-    <div className="text-4xl font-light uppercase absolute left-16 top-1/2 -translate-y-1/2 -translate-x-1/2">
-      My Site
+    <div className="text-4xl font-light uppercase absolute left-24 top-1/2 -translate-y-1/2 -translate-x-1/2 cursor-pointer">
+      MovDet
     </div>
 
     {/* <!-- Navbar Menu --> */}
     <nav className="flex gap-5">
-      <a>Home</a>
-      <a>Login</a>
-      <a>Signup</a>
+      <a className="cursor-pointer">Home</a>
+      <a className="cursor-pointer">Login</a>
+      <a className="cursor-pointer">Signup</a>
     </nav>
   </div>
 </div>
@@ -26,9 +26,9 @@ export default function HeroSection() {
 {/* <!-- Hero Section Content --> */}
 <div className="flex-1 flex items-center">
   <div className="text-center mx-auto">
-    <h1 className="text-6xl font-semibold">Welcome to my site!</h1>
-    <p className="font-light text-3xl mt-5">The land of opportunity.</p>
-    <a className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10" href="">Get Started</a>
+    <h1 className="text-6xl font-semibold">Lorem ipsum dolor sit!</h1>
+    <p className="font-light text-3xl mt-5">Lorem ipsum dolor sit.</p>
+    <a className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10" href="">Let's Explore</a>
   </div>
 </div>
 </section>
