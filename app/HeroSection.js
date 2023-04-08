@@ -26,8 +26,8 @@ export default function HeroSection() {
 {/* <!-- Hero Section Content --> */}
 <div className="flex-1 flex items-center">
   <div className="text-center mx-auto">
-    <h1 className="text-6xl font-semibold">Lorem ipsum dolor sit!</h1>
-    <p className="font-light text-3xl mt-5">Lorem ipsum dolor sit.</p>
+    <h1 className="text-6xl font-semibold">Check out the top <br /> movies and trends.!</h1>
+    <p className="font-light text-3xl mt-5">The latest and most popular movies are listed here..</p>
     <a className="px-5 py-2 inline-block bg-cyan-500 text-white hover:bg-cyan-400 transition-colors mt-10" href="">Let's Explore</a>
   </div>
 </div>

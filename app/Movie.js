@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Movie({ title, id , poster_path, release_date }) {
     const imagePath = "https://image.tmdb.org/t/p/original"
 
-    console.log(poster_path);
+    // console.log(poster_path);
   return (
     <div className="">
       <h1>{title}</h1>
