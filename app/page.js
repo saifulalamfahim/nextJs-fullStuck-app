@@ -10,12 +10,12 @@ export default async  function Home() {
   const resTre = await dataTrending.json()
   console.log(resTre);
   return (
-    <main >
+    <main className="bg-slate-950 text-white ">
       <HeroSection/>
       <div className="text-5xl mx-20 my-12 underline underline-offset-4">
         <h1>Popular movies</h1>
       </div>
-      <div className="grid gap-16 grid-cols-fluid  mx-20 my-6">
+      <div className="grid gap-16 grid-cols-fluid  mx-20 my-6 ">
       {
         res.results.map((movie) => (
           <Movie
@@ -44,6 +44,9 @@ export default async  function Home() {
           />
         ))
       }
+      </div>
+      <div className="bg-white text-black text-center">
+      <p> &copy; {new Date().getFullYear()}: Powerd By saa.dev</p>
       </div>
     </main>
   )
